@@ -38,3 +38,6 @@ rsconnect/
 # Ignore PowerPoint files
 *.ppt
 *.pptx
+
+# Ignore development folder
+/dev/
