@@ -23,17 +23,20 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 <!-- toc -->
 * Comparisons
-  + Day 1: [Part-to-Whole](https://github.com/Z3tt/30DayChartChallenge/tree/master/contributions/Day01_Points)
+  + Day 1: [Part-to-Whole](https://github.com/Z3tt/30DayChartChallenge/tree/master/01_part_to_whole/)
+  + Day 2: [Pictogram](https://github.com/Z3tt/30DayChartChallenge/tree/master/02_pictogram/)
+  + Day 3: [Historical](https://github.com/Z3tt/30DayChartChallenge/tree/master/03_historical/)
 <!-- tocstop -->
 
 </details>
 
 ***
 
-### Day 1: [Points](https://github.com/Z3tt/30DayMapChallenge/tree/master/01_part_to_whole/Day01_Points)
-![./Day01_Points/Points_Squirrels.png](https://raw.githubusercontent.com/Z3tt/30DayMapChallenge/master/01_part_to_whole/pie_commits.png)
+### Day 1: [Part-to-whole](https://github.com/Z3tt/30DayMapChallenge/tree/master/01_part_to_whole/)
+![](https://github.com/Z3tt/30DayChartChallenge/tree/master/01_part_to_whole/01_part_to_whole_v1.png)
 
+### Day 2: [Pictogram](https://github.com/Z3tt/30DayMapChallenge/tree/master/02_pictogram/)
+![](https://github.com/Z3tt/30DayChartChallenge/tree/master/02_pictogram/02_pictogram_en.png)
 
-# 30DayChartChallenge 2021
-
- My contributions to the first #30DayChartChallenge in April 2021.
+### Day 3: [Historical](https://github.com/Z3tt/30DayMapChallenge/tree/master/03_historical/)
+![](https://github.com/Z3tt/30DayChartChallenge/tree/master/03_historical/03_historical.png)
