@@ -78,10 +78,10 @@ ggplot() +
   scale_x_continuous(expand = c(.03, .03)) +
   scale_y_continuous(limits = c(.4, 3.4), expand = c(0, 0)) +
   theme_void() +
-  theme(plot.caption = element_markdown(family = "Averia Serif Libre", size = 16, color = "grey15", hjust = 0, lineheight = 1.1, margin = margin(15, 5, 10, 10))) +
-  labs(caption = "Remake of <span style='color:#828282;'>(one of?)</span> the first visual representation of statistical data by Michael Florent Van Langren, drawn in 1644.<br>The Flemish astronomer illustrated the twelve known estimates in longitude between Toledo and Rome at that time.<span style='font-size:13pt;'><br><br><i>Created in ggplot2 by Cédric Scherer</i> | <i>#30DayChartChallenge</i> | <i>Day 3: Historical</i></span>")
+  theme(plot.caption = element_markdown(family = "Averia Serif Libre", size = 19, color = "grey15", hjust = 0, lineheight = 1.1, margin = margin(35, 5, 10, 20))) +
+  labs(caption = "Remake of <span style='color:#828282;'>(one of?)</span> the first visual representation of statistical data by Michael Florent Van Langren, drawn in 1644.<br>The Flemish astronomer illustrated the twelve known estimates in longitude between Toledo and Rome at that time.<span style='font-size:15pt;'><br><br><i>Created with ggplot2 by Cédric Scherer</i> | <i>#30DayChartChallenge 2021</i> | <i>Day 3: Historical</i></span>")
 
 ggsave(here::here("03_historical", "03_historical.png"), 
-       width = 17600, height = 5400, res = 1200, 
+       width = 17600, height = 6000, res = 1200, 
        device = agg_png, limitsize = FALSE)
 
