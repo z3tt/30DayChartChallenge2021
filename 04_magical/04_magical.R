@@ -6,7 +6,7 @@ library(ggtext)
 library(ragg)
 
 df <- 
-  readr::read_csv(here::here("data", "wizard-witch.csv"), skip = 2) %>% 
+  readr::read_csv("https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/04_magical/wizard-witch.csv", skip = 2) %>% 
   janitor::clean_names() %>% 
   pivot_longer(cols = -monat, names_to = "query", values_to = "interest") %>% 
   mutate(
@@ -19,7 +19,7 @@ df <-
   filter(!is.na(roll)) 
 
 df_ribbon <-
-  df%>% 
+  df %>% 
   group_by(monat) %>% 
   summarize(
     min = min(roll),
@@ -66,7 +66,7 @@ ggplot(df, aes(monat, roll, color = query)) +
   ) +
   scale_x_date(date_breaks = "year", date_labels = "%Y", expand = c(0, 0)) +
   scale_color_manual(values = cols) +
-  labs(caption = "Visualization: Cédric Scherer  |  Data: Global Google Search Trends (derived 2021–04–02) as rolling average  •  #30DayChartChallenge Day  |  Day 4: Magical") +
+  labs(caption = "Visualization: Cédric Scherer  |  Data: Global Google Search Trends (derived 2021–04–02) as rolling average  •  #30DayChartChallenge 2021  |  Day 4: Magical") +
   theme_void() +
   theme(
     panel.background = element_rect(fill = "transparent", color = "transparent"),
