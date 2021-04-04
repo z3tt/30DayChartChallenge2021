@@ -1,4 +1,4 @@
 ### #30DayChartChallenge — Day 3: Historical
-![](https://github.com/Z3tt/30DayChartChallenge/tree/master/03_historical/03_historical.png)<br><br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/03_historical/03_historical.png)<br><br>
 *Original:*  
-![](https://github.com/Z3tt/30DayChartChallenge/tree/master/03_historical/MichaelFlorentVanLangren.jpg)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/03_historical/MichaelFlorentVanLangren.jpg)
