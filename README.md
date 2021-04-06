@@ -23,28 +23,28 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 <!-- toc -->
 * Comparisons
-  + Day 1: [Part-to-Whole](https://github.com/Z3tt/30DayChartChallenge/tree/master/01_part_to_whole/)
-  + Day 2: [Pictogram](https://github.com/Z3tt/30DayChartChallenge/tree/master/02_pictogram/)
-  + Day 3: [Historical](https://github.com/Z3tt/30DayChartChallenge/tree/master/03_historical/)
-  + Day 4: [Magical](https://github.com/Z3tt/30DayChartChallenge/tree/master/04_magical/)
-  + Day 5: [Slope](https://github.com/Z3tt/30DayChartChallenge/tree/master/05_slope/)
+  + Day 1: [Part-to-Whole](https://github.com/Z3tt/30DayChartChallenge/tree/main/01_part_to_whole/)
+  + Day 2: [Pictogram](https://github.com/Z3tt/30DayChartChallenge/tree/main/02_pictogram/)
+  + Day 3: [Historical](https://github.com/Z3tt/30DayChartChallenge/tree/main/03_historical/)
+  + Day 4: [Magical](https://github.com/Z3tt/30DayChartChallenge/tree/main/04_magical/)
+  + Day 5: [Slope](https://github.com/Z3tt/30DayChartChallenge/tree/main/05_slope/)
 <!-- tocstop -->
 
 </details>
 
 ***
 
-### Day 1: [Part-to-whole](https://github.com/Z3tt/30DayMapChallenge/tree/master/01_part_to_whole/)
+### Day 1: [Part-to-whole](https://github.com/Z3tt/30DayChartChallenge/tree/main/01_part_to_whole)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/01_part_to_whole/01_part_to_whole_v1.png)<br>*Tool:* Microsoft PowerPoint
 
-### Day 2: [Pictogram](https://github.com/Z3tt/30DayMapChallenge/tree/master/02_pictogram/)
+### Day 2: [Pictogram](https://github.com/Z3tt/30DayChartChallenge/tree/main/02_pictogram)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/02_pictogram/02_pictogram_en.png)<br>*Tool:* Microsoft Word
 
-### Day 3: [Historical](https://github.com/Z3tt/30DayMapChallenge/tree/master/03_historical/)
+### Day 3: [Historical](https://github.com/Z3tt/30DayChartChallenge/tree/main/03_historical)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/03_historical/03_historical.png)<br>*Tool:* ggplot2
 
-### Day 4: [Magical](https://github.com/Z3tt/30DayMapChallenge/tree/master/04_magical/)
+### Day 4: [Magical](https://github.com/Z3tt/30DayChartChallenge/tree/main/04_magical)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/04_magical/04_magical.png)<br>*Tool:* ggplot2
 
-### Day 5: [Slope](https://github.com/Z3tt/30DayMapChallenge/tree/master/05_slope/)
+### Day 5: [Slope](https://github.com/Z3tt/30DayChartChallenge/tree/main/05_slope)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/05_slope/05_slope.png)<br>*Tool:* ggplot2
