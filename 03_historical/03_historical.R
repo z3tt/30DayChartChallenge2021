@@ -71,7 +71,7 @@ ggplot() +
   geom_text(data = labs_hor[1,], aes(x, y, label = lab), 
             size = 10, family = "Averia Serif Libre", fontface = "bold") + #
   geom_richtext(data = labs_hor[2:5,], aes(x, y, label = lab), 
-            size = 16, family = "Averia Serif Libre", fontface = "bold", fill = NA, label.colour = NA) + #Playfair Display SC
+            size = 14, family = "Averia Serif Libre", fontface = "bold", fill = NA, label.colour = NA) + #Playfair Display SC
   geom_richtext(data = labs_vert, aes(x, y, label = lab), 
                angle = 90, hjust = 0, size = 6, family = "Averia Serif Libre", 
                fontface = "bold", fill = NA, label.colour = NA) + #Faustina Historical
