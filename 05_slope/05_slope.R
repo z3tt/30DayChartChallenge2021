@@ -4,7 +4,7 @@ library(ggtext)
 library(ggrepel)
 
 df_slope <-
-  read_csv(here::here("05_slope", "worldbank_urban_percentag.csv"), skip = 4) %>% 
+  read_csv("https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/05_slope/worldbank_urban_percentag.csv", skip = 4) %>% 
   dplyr::select(`Country Name`, `1960`, `2019`) %>%
   mutate(change = `2019` - `1960`) %>% 
   pivot_longer(
