@@ -28,6 +28,7 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
   + Day 3: [Historical](https://github.com/Z3tt/30DayChartChallenge/tree/main/03_historical/)
   + Day 4: [Magical](https://github.com/Z3tt/30DayChartChallenge/tree/main/04_magical/)
   + Day 5: [Slope](https://github.com/Z3tt/30DayChartChallenge/tree/main/05_slope/)
+  + Day 6: [Experimental](https://github.com/Z3tt/30DayChartChallenge/tree/main/06_experimental/)
 <!-- tocstop -->
 
 </details>
@@ -48,3 +49,6 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ### Day 5: [Slope](https://github.com/Z3tt/30DayChartChallenge/tree/main/05_slope)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/05_slope/05_slope.png)<br>*Tool:* ggplot2
+
+### Day 6: Experimental](https://github.com/Z3tt/30DayChartChallenge/tree/main/06_experimental)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/06_experimental/06_experimental.png)<br>*Tool:* ggplot2
