@@ -62,4 +62,4 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 ## Distributions
 
 ### Day 7: [Physical](https://github.com/Z3tt/30DayChartChallenge/tree/main/07_physical)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/07_physical/07_physical.png)<br>***Tool:*** *amcharts + Figma*<br><br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/07_physical/07_physical.png)<br>***Tools:*** *amcharts + Figma*<br><br>
