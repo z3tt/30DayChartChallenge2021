@@ -31,6 +31,7 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
   + Day 6: [Experimental](https://github.com/Z3tt/30DayChartChallenge/tree/main/06_experimental/)
 * Distributions
   + Day 7: [Physical](https://github.com/Z3tt/30DayChartChallenge/tree/main/07_physical/)
+    + Day 8: [Animals](https://github.com/Z3tt/30DayChartChallenge/tree/main/08_animals/)
 <!-- tocstop -->
 
 </details>
@@ -63,3 +64,7 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ### Day 7: [Physical](https://github.com/Z3tt/30DayChartChallenge/tree/main/07_physical)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/07_physical/07_physical.png)<br>***Tools:*** *amcharts + Figma*<br><br>
+
+### Day 8: [Animals](https://github.com/Z3tt/30DayChartChallenge/tree/main/08_animals)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/08_animals/08_animals_log.png)<br>***Tools:*** *DataWrapper*<br>
+[Interactive version](https://datawrapper.dwcdn.net/4pp6O/6/)<br>
