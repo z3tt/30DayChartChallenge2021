@@ -31,7 +31,32 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
   + Day 6: [Experimental](https://github.com/Z3tt/30DayChartChallenge/tree/main/06_experimental/)
 * Distributions
   + Day 7: [Physical](https://github.com/Z3tt/30DayChartChallenge/tree/main/07_physical/)
-    + Day 8: [Animals](https://github.com/Z3tt/30DayChartChallenge/tree/main/08_animals/)
+  + Day 8: [Animals](https://github.com/Z3tt/30DayChartChallenge/tree/main/08_animals/)
+  + Day 9: Statistics
+  + Day 10: [Abstract](https://github.com/Z3tt/30DayChartChallenge/tree/main/10_abstract/)
+  + Day 11: Circular
+  + Day 12: Strips
+* Relationships
+  + Day 13: [Correlation](https://github.com/Z3tt/30DayChartChallenge/tree/main/13_correlation/)
+  + Day 14: Space
+  + Day 15: Multivariate
+  + Day 16: Trees
+  + Day 17: Pop culture
+  + Day 18: Connections
+* Timeseries
+  + Day 19: Global change
+  + Day 20: Upwards
+  + Day 21: Downwards
+  + Day 22: Animation
+  + Day 23: Tiles
+  + Day 24: Monochrome
+* Uncertainties:
+  + Demographic
+  + Trends
+  + Educational
+  + Future
+  + Deviations
+  + 3D
 <!-- tocstop -->
 
 </details>
@@ -66,5 +91,14 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/07_physical/07_physical.png)<br>***Tools:*** *amcharts + Figma*<br><br>
 
 ### Day 8: [Animals](https://github.com/Z3tt/30DayChartChallenge/tree/main/08_animals)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/08_animals/08_animals_log.png)<br>***Tools:*** *DataWrapper*<br>
-[Interactive version](https://datawrapper.dwcdn.net/4pp6O/6/)<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/08_animals/08_animals_log.png)<br>***Tools:*** *DataWrapper* ([Interactive version](https://datawrapper.dwcdn.net/E883b/2/))<br>
+
+### Day 10: [Abstract](https://github.com/Z3tt/30DayChartChallenge/tree/main/10_abstract)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/10_abstract/10_abstract_rocket.png)<br>***Tools:*** *ggplot2*<br>
+
+***
+
+## Relationships
+
+### Day 13: [Correlation](https://github.com/Z3tt/30DayChartChallenge/tree/main/10_abstract)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/13_correlation/13_correlation.png)<br>***Tools:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5846249/))<br>
