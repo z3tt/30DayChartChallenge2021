@@ -42,8 +42,8 @@ rsconnect/
 # Ignore development folder
 /dev/
 
-# Ignore downloaded gz files
-*.csv.gz
+# Ignore gz files
+*.gz
 
 # Ignore Tree Census Data
 /16_trees/*.csv
