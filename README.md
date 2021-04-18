@@ -38,10 +38,10 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
   + Day 12: Strips
 * Relationships
   + Day 13: [Correlation](https://github.com/Z3tt/30DayChartChallenge/tree/main/13_correlation/)
-  + Day 14: Space
+  + Day 14: [Space](https://github.com/Z3tt/30DayChartChallenge/tree/main/14_space/)
   + Day 15: Multivariate
-  + Day 16: Trees
-  + Day 17: Pop culture
+  + Day 16: [Trees](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees/)
+  + Day 17: [Pop culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/17_pop_culture/)
   + Day 18: Connections
 * Timeseries
   + Day 19: Global change
@@ -91,14 +91,23 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/07_physical/07_physical.png)<br>***Tools:*** *amcharts + Figma*<br><br>
 
 ### Day 8: [Animals](https://github.com/Z3tt/30DayChartChallenge/tree/main/08_animals)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/08_animals/08_animals_log.png)<br>***Tools:*** *DataWrapper* ([Interactive version](https://datawrapper.dwcdn.net/E883b/2/))<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/08_animals/08_animals_log.png)<br>***Tool:*** *DataWrapper* ([Interactive version](https://datawrapper.dwcdn.net/E883b/2/))<br>
 
 ### Day 10: [Abstract](https://github.com/Z3tt/30DayChartChallenge/tree/main/10_abstract)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/10_abstract/10_abstract_rocket.png)<br>***Tools:*** *ggplot2*<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/10_abstract/10_abstract_rocket.png)<br>***Tool:*** *ggplot2*<br>
 
 ***
 
 ## Relationships
 
 ### Day 13: [Correlation](https://github.com/Z3tt/30DayChartChallenge/tree/main/10_abstract)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/13_correlation/13_correlation.png)<br>***Tools:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5846249/))<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/13_correlation/13_correlation.png)<br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5846249/))<br>
+
+### Day 14: [Space](https://github.com/Z3tt/30DayChartChallenge/tree/main/14_space)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/14_space/14_space_mono.png)<br>***Tool:*** *ggplot2*<br>
+
+### Day 16: [Trees](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/16_trees/16_trees.png)<br>***Tool:*** *ggplot2*<br>
+
+### Day 17: [Pop culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/17_pop_culture/17_pop_culture.png)<br>***Tool:*** *ggplot2*<br>
