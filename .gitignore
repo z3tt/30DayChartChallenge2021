@@ -41,3 +41,5 @@ rsconnect/
 
 # Ignore development folder
 /dev/
+
+*.csv.gz
