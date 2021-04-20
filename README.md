@@ -116,4 +116,5 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ## Timeseries
 
-### Day 19: [Global Change](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change/19_global_change.png)<br>***Tools:*** *ggplot2 and Figma*<br>
+### Day 19: [Global Change](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change/19_global_change.png)<br><br>***Tools:*** *ggplot2 and Figma*<br>
