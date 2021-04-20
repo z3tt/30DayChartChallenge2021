@@ -41,10 +41,10 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
   + Day 14: [Space](https://github.com/Z3tt/30DayChartChallenge/tree/main/14_space/)
   + Day 15: Multivariate
   + Day 16: [Trees](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees/)
-  + Day 17: [Pop culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/17_pop_culture/)
+  + Day 17: [Pop Culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/17_pop_culture/)
   + Day 18: Connections
 * Timeseries
-  + Day 19: Global change
+  + Day 19: [Global Change](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change/19_global_change.png)
   + Day 20: Upwards
   + Day 21: Downwards
   + Day 22: Animation
@@ -65,7 +65,7 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ## Comparisons
 
-### Day 1: [Part-to-whole](https://github.com/Z3tt/30DayChartChallenge/tree/main/01_part_to_whole)
+### Day 1: [Part-to-Whole](https://github.com/Z3tt/30DayChartChallenge/tree/main/01_part_to_whole)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/01_part_to_whole/01_part_to_whole_v1.png)<br>***Tool:*** *Microsoft PowerPoint*<br><br>
 
 ### Day 2: [Pictogram](https://github.com/Z3tt/30DayChartChallenge/tree/main/02_pictogram)
@@ -109,5 +109,11 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 ### Day 16: [Trees](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/16_trees/16_trees.png)<br>***Tool:*** *ggplot2*<br>
 
-### Day 17: [Pop culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees)
+### Day 17: [Pop Culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/17_pop_culture/17_pop_culture.png)<br>***Tool:*** *ggplot2*<br>
+
+***
+
+## Timeseries
+
+### Day 19: [Global Change](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change/19_global_change.png)<br>***Tools:*** *ggplot2 and Figma*<br>
