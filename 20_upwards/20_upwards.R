@@ -6,12 +6,6 @@ library(ggtext)
 library(ragg)
 
 register_variant(
-  name = "Vision Tabular",
-  family = "Vision",
-  features = font_feature(numbers = "tabular")
-)
-
-register_variant(
   name = "Vision Heavy",
   family = "Vision",
   weight = "heavy"
