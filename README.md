@@ -123,7 +123,7 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/20_upwards/20_upwards.png)<br><br>***Tool:*** *ggplot2*<br>
 
 ### Day 22: [Animation](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/22_animation)
-![](https://public.flourish.studio/visualisation/5939637)<br><br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5939637))<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/22_animation/22_animation.png)<br><br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5939637))<br>
 
 ### Day 23: [Tiles](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles/23_tiles.png)<br><br>***Tool:*** *ggplot2*<br>
