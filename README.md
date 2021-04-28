@@ -51,12 +51,12 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
   + Day 23: [Tiles](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles/)
   + Day 24: Monochrome
 * Uncertainties:
-  + Demographic
-  + Trends
-  + Educational
-  + Future
-  + Deviations
-  + 3D
+  + Day 25: Demographic
+  + Day 26: Trends
+  + [Day 27: Educational](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational/)
+  + Day 28: Future
+  + Day 29: Deviations
+  + Day 30: 3D
 <!-- tocstop -->
 
 </details>
@@ -127,3 +127,10 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ### Day 23: [Tiles](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles/23_tiles.png)<br><br>***Tool:*** *ggplot2*<br>
+
+***
+
+## Uncertainties
+
+### Day 27: [Educational](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational/27_educational.png)<br>***Tools:*** *ggplot2 and Figma*
