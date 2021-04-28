@@ -53,7 +53,8 @@ df_plot <- df %>%
   ) %>% 
   group_by(region) %>% 
   mutate(traffic = rollmean(traffic, 7, align = "right", fill = NA)) %>% 
-  filter(day > "2020-01-18")
+  filter(day > "2020-01-18") %>%
+  ungroup
 
 ggplot(df_plot, aes(day, as.integer(region), fill = traffic, color = traffic)) +
   geom_tile() +
