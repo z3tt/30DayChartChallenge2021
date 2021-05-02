@@ -116,24 +116,24 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ## Timeseries
 
-### Day 19: [Global Change](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change)
+### Day 19: [Global Change](https://github.com/Z3tt/30DayChartChallenge/tree/main/19_global_change)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change/19_global_change.png)<br><br>***Tools:*** *ggplot2 and Figma*<br>
 
-### Day 20: [Upwards](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/20_upwards)
+### Day 20: [Upwards](https://github.com/Z3tt/30DayChartChallenge/tree/main/20_upwards)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/20_upwards/20_upwards.png)<br><br>***Tool:*** *ggplot2*<br>
 
-### Day 22: [Animation](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/22_animation)
+### Day 22: [Animation](https://github.com/Z3tt/30DayChartChallenge/tree/main/22_animation)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/22_animation/22_animation.png)<br><br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5939637))<br>
 
-### Day 23: [Tiles](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles)
+### Day 23: [Tiles](https://github.com/Z3tt/30DayChartChallenge/tree/main/23_tiles)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles/23_tiles.png)<br><br>***Tool:*** *ggplot2*<br>
 
 ***
 
 ## Uncertainties
 
-### Day 27: [Educational](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational)
+### Day 27: [Educational](https://github.com/Z3tt/30DayChartChallenge/tree/main/27_educational)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational/27_educational.png)<br>***Tools:*** *ggplot2 and Figma*
 
-### Day 30: [3D](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/30_3D)
+### Day 30: [3D](https://github.com/Z3tt/30DayChartChallenge/tree/main/30_3D)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/30_3D/30_3D.png)<br>***Tool:*** *Lego*
