@@ -56,7 +56,7 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
   + [Day 27: Educational](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational/)
   + Day 28: Future
   + Day 29: Deviations
-  + Day 30: 3D
+  + [Day 30: 3D](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/30_3D/)
 <!-- tocstop -->
 
 </details>
@@ -94,7 +94,7 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/08_animals/08_animals_log.png)<br>***Tool:*** *DataWrapper* ([Interactive version](https://datawrapper.dwcdn.net/E883b/2/))<br>
 
 ### Day 10: [Abstract](https://github.com/Z3tt/30DayChartChallenge/tree/main/10_abstract)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/10_abstract/10_abstract_rocket.png)<br>***Tool:*** *ggplot2*<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/10_abstract/10_abstract_turbo.png)<br>***Tool:*** *ggplot2*<br>
 
 ***
 
@@ -134,3 +134,6 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ### Day 27: [Educational](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational/27_educational.png)<br>***Tools:*** *ggplot2 and Figma*
+
+### Day 30: [3D](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/30_3D)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/30_3D/30_3D.png)<br>***Tool:*** *Lego*
