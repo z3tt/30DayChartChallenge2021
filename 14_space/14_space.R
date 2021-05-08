@@ -61,6 +61,15 @@ p <-
     color = year, 
     fill = year
   )) +
+  ## tick marks years
+  geom_text(
+    data = df_labs,
+    aes(y = -1.5, label = "|"),
+    family = "Changa",
+    fontface = "bold",
+    size = 4,
+    vjust = 1
+  ) +
   ## sparkling points
   geom_point_blur(
     aes(
@@ -96,15 +105,6 @@ p <-
       y = hours + 5, 
       size = hours
     )
-  ) +
-  ## tick marks years
-  geom_text(
-    data = df_labs,
-    aes(y = 0, label = "|"),
-    family = "Changa",
-    fontface = "bold",
-    size = 4,
-    vjust = 1
   ) +
   ## labels years
   geom_richtext(
@@ -176,6 +176,16 @@ p <-
     color = hours, 
     fill = hours
   )) +
+  ## tick marks years
+  geom_text(
+    data = df_labs,
+    aes(y = -1.5, label = "|"),
+    family = "Changa",
+    color = "grey65",
+    fontface = "bold",
+    size = 4,
+    vjust = 1
+  ) +
   ## sparkling points
   geom_point_blur(
     aes(
@@ -210,16 +220,6 @@ p <-
       y = hours + 5, 
       size = hours
     )
-  ) +
-  ## tick marks years
-  geom_text(
-    data = df_labs,
-    aes(y = 0, label = "|"),
-    family = "Changa",
-    color = "grey65",
-    fontface = "bold",
-    size = 4,
-    vjust = 1
   ) +
   ## labels years
   geom_richtext(
@@ -291,6 +291,16 @@ p <-
     color = hours, 
     fill = hours
   )) +
+  ## tick marks years
+  geom_text(
+    data = df_labs,
+    aes(y = -1.5, label = "|"),
+    family = "Changa",
+    color = "grey55",
+    fontface = "bold",
+    size = 4,
+    vjust = 1
+  ) +
   ## sparkling points
   geom_point_blur(
     aes(
@@ -325,16 +335,6 @@ p <-
       y = hours + 5, 
       size = hours
     )
-  ) +
-  ## tick marks years
-  geom_text(
-    data = df_labs,
-    aes(y = 0, label = "|"),
-    family = "Changa",
-    color = "grey55",
-    fontface = "bold",
-    size = 4,
-    vjust = 1
   ) +
   ## labels years
   geom_richtext(
@@ -404,6 +404,16 @@ p <-
     color = hours, 
     fill = hours
   )) +
+  ## tick marks years
+  geom_text(
+    data = df_labs,
+    aes(y = -1.5, label = "|"),
+    family = "Changa",
+    fontface = "bold",
+    color = "grey65",
+    size = 4,
+    vjust = 1
+  ) +
   ## sparkling points
   geom_point_blur(
     aes(
@@ -438,16 +448,6 @@ p <-
       y = hours + 5, 
       size = hours
     )
-  ) +
-  ## tick marks years
-  geom_text(
-    data = df_labs,
-    aes(y = 0, label = "|"),
-    family = "Changa",
-    fontface = "bold",
-    color = "grey65",
-    size = 4,
-    vjust = 1
   ) +
   ## labels years
   geom_richtext(
