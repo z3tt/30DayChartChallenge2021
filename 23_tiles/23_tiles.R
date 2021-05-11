@@ -35,7 +35,7 @@ df <-
     values_to = "traffic"
   ) %>% 
   mutate(
-    day = ymd(day), traffic = log10(traffic),
+    day = ymd(day), traffic = log2(traffic / 100),
     region = if_else(region == "Saint Petersburg - Russia", "Saint Petersburg", region)
   )
 
@@ -77,8 +77,11 @@ ggplot(df_plot, aes(day, as.integer(region), fill = traffic, color = traffic)) +
                date_minor_breaks = "1 week",
                limits = c(as_date("2019-11-17"), NA)) +
   scale_fill_gradientn(colors = viridis::rocket(100, direction = -1, end = .97),
-                       breaks = seq(-.5, 2.5, by = .25),
-                       labels = function(x) paste0(x, "x"),
+                       #breaks = log2(seq(-1.25, .5, by = .25)),
+                       #breaks = c(seq(-4, 0, by = 1), .5, 1),
+                       breaks = log2(c(.0625, .125, .25, .5, 1, 1.5, 2)),
+                       labels = c("6.25%", "12.5%", "25%", "50%", "Baseline", "150%", "200%"),
+                       #limits = c(NA, .5),
                        name = "Relative volume of directions requests for the largest cities compared to a baseline volume on January 13<sup>th</sup> 2020") +
   scale_color_gradientn(colors = viridis::rocket(100, direction = -1, end = .97),
                         breaks = seq(-.6, 2.6, by = .2), guide = "none") +
@@ -102,7 +105,7 @@ ggplot(df_plot, aes(day, as.integer(region), fill = traffic, color = traffic)) +
     legend.title = element_markdown(family = "Produkt Light", size = 16.5,
                                 color = "grey35",
                                 margin = margin(t = 0, b = 10)),
-    legend.text = element_text(family = "InputMono", size = 13,
+    legend.text = element_markdown(family = "InputMono", size = 13,
                                color = "grey35", margin = margin(t = 1, b = 0)),
     legend.margin = margin(10, 0, 0, 0),
     strip.text = element_text(family = "Produkt Medium", size = 23, hjust = 0),
