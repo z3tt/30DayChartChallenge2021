@@ -88,10 +88,10 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 ## Distributions
 
 ### Day 7: [Physical](https://github.com/Z3tt/30DayChartChallenge/tree/main/07_physical)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/07_physical/07_physical.png)<br>***Tools:*** *amcharts + Figma*<br><br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/07_physical/07_physical.png)<br>***Tools:*** *amcharts and Figma*<br><br>
 
 ### Day 8: [Animals](https://github.com/Z3tt/30DayChartChallenge/tree/main/08_animals)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/08_animals/08_animals_log.png)<br>***Tool:*** *DataWrapper* ([Interactive version](https://datawrapper.dwcdn.net/E883b/2/))<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/08_animals/08_animals_log.png)<br>***Tool:*** *DataWrapper* ([Interactive version](https://datawrapper.dwcdn.net/E883b/2/))<br><br>
 
 ### Day 10: [Abstract](https://github.com/Z3tt/30DayChartChallenge/tree/main/10_abstract)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/10_abstract/10_abstract_turbo.png)<br>***Tool:*** *ggplot2*<br>
@@ -100,16 +100,16 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ## Relationships
 
-### Day 13: [Correlation](https://github.com/Z3tt/30DayChartChallenge/tree/main/10_abstract)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/13_correlation/13_correlation.png)<br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5846249/))<br>
+### Day 13: [Correlation](https://github.com/Z3tt/30DayChartChallenge/tree/main/13_correlation)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/13_correlation/13_correlation.png)<br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5846249/))<br><br>
 
 ### Day 14: [Space](https://github.com/Z3tt/30DayChartChallenge/tree/main/14_space)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/14_space/14_space_mono.png)<br>***Tool:*** *ggplot2*<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/14_space/14_space_mono.png)<br>***Tool:*** *ggplot2*<br><br>
 
 ### Day 16: [Trees](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/16_trees/16_trees.png)<br>***Tool:*** *ggplot2*<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/16_trees/16_trees.png)<br>***Tool:*** *ggplot2*<br><br>
 
-### Day 17: [Pop Culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/16_trees)
+### Day 17: [Pop Culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/17_pop_culture)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/17_pop_culture/17_pop_culture.png)<br>***Tool:*** *ggplot2*<br>
 
 ***
@@ -117,23 +117,23 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 ## Timeseries
 
 ### Day 19: [Global Change](https://github.com/Z3tt/30DayChartChallenge/tree/main/19_global_change)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change/19_global_change.png)<br><br>***Tools:*** *ggplot2 and Figma*<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change/19_global_change.png)<br>***Tools:*** *ggplot2 and Figma*<br><br>
 
 ### Day 20: [Upwards](https://github.com/Z3tt/30DayChartChallenge/tree/main/20_upwards)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/20_upwards/20_upwards.png)<br><br>***Tool:*** *ggplot2*<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/20_upwards/20_upwards.png)<br>***Tool:*** *ggplot2*<br><br>
 
 ### Day 22: [Animation](https://github.com/Z3tt/30DayChartChallenge/tree/main/22_animation)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/22_animation/22_animation.png)<br><br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5939637))<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/22_animation/22_animation.png)<br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5939637))<br><br>
 
 ### Day 23: [Tiles](https://github.com/Z3tt/30DayChartChallenge/tree/main/23_tiles)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles/23_tiles.png)<br><br>***Tool:*** *ggplot2*<br>
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles/23_tiles.png)<br>***Tool:*** *ggplot2*<br>
 
 ***
 
 ## Uncertainties
 
 ### Day 27: [Educational](https://github.com/Z3tt/30DayChartChallenge/tree/main/27_educational)
-![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational/27_educational.png)<br>***Tools:*** *ggplot2 and Figma*
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational/27_educational.png)<br>***Tools:*** *ggplot2 and Figma*<br><br>
 
 ### Day 30: [3D](https://github.com/Z3tt/30DayChartChallenge/tree/main/30_3D)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/30_3D/30_3D.png)<br>***Tool:*** *Lego*
