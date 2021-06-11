@@ -36,9 +36,9 @@ df_rect <-
 ggplot(df, aes(quartal, users)) +
   geom_col(width = .9, fill = "#666666") +
   geom_linerange(aes(quartal - offset, ymin = 0, ymax = subscribers), 
-                 color = "#1DB954", alpha = .5, size = 1.2) +
+                 color = "#1DB954", alpha = .8, size = 1.4) +
   geom_linerange(aes(quartal + offset, ymin = 0, ymax = non_subscribers), 
-                 color = "white", alpha = .5, size = 1.2) +
+                 color = "white", alpha = .8, size = 1.4) +
   geom_point(aes(quartal - offset, subscribers), 
              color = "#1DB954", size = 4) +
   geom_point(aes(quartal + offset, non_subscribers), 
@@ -100,9 +100,9 @@ pdftools::pdf_convert(
 ggplot(df, aes(quartal, users)) +
   geom_col(width = .9, fill = "#666666") +
   geom_linerange(aes(quartal - offset, ymin = 0, ymax = subscribers), 
-                 color = "#1DB954", alpha = .5, size = 1.2) +
+                 color = "#1DB954", alpha = .8, size = 1.4) +
   geom_linerange(aes(quartal + offset, ymin = 0, ymax = non_subscribers), 
-                 color = "white", alpha = .5, size = 1.2) +
+                 color = "white", alpha = .8, size = 1.4) +
   geom_point(aes(quartal - offset, subscribers), 
              color = "#1DB954", size = 4) +
   geom_point(aes(quartal + offset, non_subscribers), 
