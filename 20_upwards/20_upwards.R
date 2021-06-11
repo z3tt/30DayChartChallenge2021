@@ -34,7 +34,7 @@ df_rect <-
   )
 
 ggplot(df, aes(quartal, users)) +
-  geom_col(width = .9, fill = "#666666") +
+  geom_col(width = .9, fill = "#525252") +
   geom_linerange(aes(quartal - offset, ymin = 0, ymax = subscribers), 
                  color = "#1DB954", alpha = .8, size = 1.4) +
   geom_linerange(aes(quartal + offset, ymin = 0, ymax = non_subscribers), 
@@ -98,7 +98,7 @@ pdftools::pdf_convert(
 ## REMIX VERSION
 
 ggplot(df, aes(quartal, users)) +
-  geom_col(width = .9, fill = "#666666") +
+  geom_col(width = .9, fill = "#525252") +
   geom_linerange(aes(quartal - offset, ymin = 0, ymax = subscribers), 
                  color = "#1DB954", alpha = .8, size = 1.4) +
   geom_linerange(aes(quartal + offset, ymin = 0, ymax = non_subscribers), 
@@ -112,7 +112,7 @@ ggplot(df, aes(quartal, users)) +
   geom_text(aes(quartal + offset, non_subscribers, label = non_subscribers), 
             color = "white", size = 7, family = "Vision Heavy", nudge_y = 7) +
   geom_text(aes(quartal, users, label = users), 
-            color = "#666666", size = 9, family = "Vision Heavy", nudge_y = 6) +
+            color = "#525252", size = 9, family = "Vision Heavy", nudge_y = 6) +
   geom_rect(data = df_rect, aes(xmin = -Inf, xmax = Inf, ymin = xmin, ymax = Inf),
             inherit.aes = FALSE, fill = "black") +
   facet_wrap(~ year, nrow = 1, strip.position = "bottom") +
