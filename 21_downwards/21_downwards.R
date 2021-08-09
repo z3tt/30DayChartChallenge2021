@@ -148,8 +148,7 @@ g <- df_bl_days_shift %>%
   geom_text(
     data = filter(df_bl_days, Club %in% c("Bayern Munich", "RB Leipzig", "Schalke 04"), Day > 33),
     aes(color = Club, label = sprintf("% 1.2f", Score_rel)),
-    size = 4.5, family = "Vision", fontface = "bold",
-    hjust = 0, nudge_x = .25, show.legend = FALSE
+    size = 4.5, family = "Vision", hjust = 0, nudge_x = .25, show.legend = FALSE
   ) +
   annotate(
     "text", x = 5, y = 2.73, label = "RB Leipzig",
@@ -234,8 +233,7 @@ g <- df_bl_days_shift %>%
   geom_text(
     data = filter(df_bl_days, Club %in% c("Bayern Munich", "RB Leipzig"), Day > 33),
     aes(color = Club, label = sprintf("% 1.2f", Score_rel)),
-    size = 4.5, family = "Vision", fontface = "bold",
-    hjust = 0, nudge_x = .25, show.legend = FALSE
+    size = 4.5, family = "Vision", hjust = 0, nudge_x = .25, show.legend = FALSE
   ) +
   annotate(
     "text", x = 5, y = 2.73, label = "RB Leipzig",
