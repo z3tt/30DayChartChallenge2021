@@ -271,7 +271,7 @@ g <- df_bl_days_shift %>%
   guides(color = guide_legend(override.aes = list(size = 7))) +
   labs(x = "Match Day", y = "", 
        title = "Bayern Munich's Road to the 31<sup>st</sup> Championship", 
-       subtitle = "<b style='color:#dc052d;'>FC Bayern Munich</b> is the champion of the Bundesliga season 2020/21 with incredible 2.28 points per match, more than 1 point more than<br>the best chasers. <b style='color:#294e88;'>RB Leipzig</b> (1.26 points per match) was getting close several times but has lost the trace again in the last matches.", 
+       subtitle = "<b style='color:#dc052d;'>FC Bayern Munich</b> is the champion of the Bundesliga season 2020/21 with incredible 2.29 points per match, more than 0.3 points more than<br>the best chasers. <b style='color:#294e88;'>RB Leipzig</b> (1.91 points per match) was getting close several times but has lost the trace again in the last matches.", 
        caption = "Visualization: Cédric Scherer") +
   theme(plot.subtitle = element_markdown(family = "Vision"))
 
