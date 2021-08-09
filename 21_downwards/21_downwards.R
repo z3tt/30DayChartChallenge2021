@@ -187,6 +187,13 @@ g <- df_bl_days_shift %>%
 ggsave(here::here("21_downwards", "21_downwards_Schalke.pdf"), g, 
        width = 14, height = 9.5, device = cairo_pdf)
 
+pdf_convert(pdf = here::here("21_downwards", "21_downwards.png"), 
+            filenames = here::here("21_downwards", "21_downward.png"),
+            format = "png", dpi = 500)
+
+
+
+
 ## Top Clubs — static plot without Schalke
 g <- df_bl_days_shift %>% 
   ggplot(aes(Day, Score_rel, group = Club)) +
@@ -256,15 +263,11 @@ g <- df_bl_days_shift %>%
        caption = "Visualization: Cédric Scherer") +
   theme(plot.subtitle = element_markdown(family = "Vision"))
 
-ggsave(here::here("22_animation", "21_downwards_not_really_eh..."), g, 
+ggsave(here::here("22_animation", "21_downwards_not_really_umpf.pdf"), g, 
        width = 14, height = 9, device = cairo_pdf)
 
 
 
-pdf_convert(pdf = here::here("21_downwards", "21_downwards_not_really_eh..."), 
-            filenames = here::here("21_downwards", "21_downwards_not_really_eh..."),
-            format = "png", dpi = 500)
-
-pdf_convert(pdf = here::here("21_downwards", "21_downwards_Schalke.pdf"), 
-            filenames = here::here("21_downwards", "21_downwards_Schalke.pdf"),
+pdf_convert(pdf = here::here("21_downwards", "21_downwards_not_really_umpf.pdf"), 
+            filenames = here::here("21_downwards", "21_downwards_not_really_umpf.png"),
             format = "png", dpi = 500)
