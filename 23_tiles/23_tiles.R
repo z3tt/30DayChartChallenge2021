@@ -79,16 +79,16 @@ ggplot(df_plot, aes(day, as.integer(region), fill = traffic, color = traffic)) +
   scale_fill_gradientn(colors = viridis::rocket(100, direction = -1, end = .97),
                        #breaks = log2(seq(-1.25, .5, by = .25)),
                        #breaks = c(seq(-4, 0, by = 1), .5, 1),
-                       breaks = log2(c(.0625, .125, .25, .5, 1, 1.5, 2)),
-                       labels = c("6.25%", "12.5%", "25%", "50%", "Baseline", "150%", "200%"),
-                       #limits = c(NA, .5),
+                       breaks = log2(c(.0625, .125, .25, .5, 1, 2)),
+                       labels = c("6.25%", "12.5%", "25%", "50%", "100%<br>Baseline", "200%"),
+                       #limits = c(NA, 4),
                        name = "Relative volume of directions requests for the largest cities compared to a baseline volume on January 13<sup>th</sup> 2020") +
   scale_color_gradientn(colors = viridis::rocket(100, direction = -1, end = .97),
                         breaks = seq(-.6, 2.6, by = .2), guide = "none") +
   guides(fill = guide_colorsteps(barwidth = unit(60, "lines"),
                                  barheight = unit(.7, "lines"),
                                  title.position = "top",
-                                 title.hjust = .5)) +
+                                 title.hjust = .5, label.vjust = 1)) +
   labs(title = "Change in Apple Routing Requests during the COVID19 Pandemic",
        caption = "Visualization: Cédric Scherer | Data: Apple Maps Mobility Trends (accessed on April 23<sup>rd</sup> 2020).<br>Change in traffic requests is shown as 7-day rolling average. Data for May 11<sup>th</sup>-12<sup>th</sup>, 2020 and March 12<sup>th</sup>, 2021 are not available. Shown are all largest cities, sorted<br>by population, that are contained in the dataset and include transit request data. Downward traingles indicate the lowest value within the visualized time period.<br><br><span style='color:#9f9f9f;'>#30DayChartChallenge 2021 | Day 23: Tiles</span>") +
   theme_minimal(base_size = 17, base_family = "Produkt Regular") +
@@ -106,8 +106,9 @@ ggplot(df_plot, aes(day, as.integer(region), fill = traffic, color = traffic)) +
                                 color = "grey35",
                                 margin = margin(t = 0, b = 10)),
     legend.text = element_markdown(family = "InputMono", size = 13,
-                               color = "grey35", margin = margin(t = 1, b = 0)),
-    legend.margin = margin(10, 0, 0, 0),
+                                   color = "grey35", lineheight = 1.1,
+                                   margin = margin(t = 1, b = 0)),
+    legend.margin = margin(10, 0, -15, 0),
     strip.text = element_text(family = "Produkt Medium", size = 23, hjust = 0),
     panel.spacing.y = unit(.7, "lines"),
     plot.title = element_text(family = "Produkt Medium", color = "black",
