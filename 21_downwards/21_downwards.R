@@ -34,10 +34,10 @@ theme_update(
   panel.grid.major.y = element_line(size = 0.6, color = "grey80",
                                     linetype = "dotted"),
   legend.position = "none",
-  plot.margin = margin(25, 45, 25, 45))
+  plot.margin = margin(25, 65, 25, 45))
 
 ## http://football-data.co.uk/germanym.php
-df_bl <- readr::read_csv(here::here("22_animation", "D1.csv"))
+df_bl <- readr::read_csv(here::here("21_downwards", "D1.csv"))
 
 df_bl_days <-
   df_bl %>%
@@ -145,6 +145,12 @@ g <- df_bl_days_shift %>%
     data = filter(df_bl_days_shift, Club %in% c("Bayern Munich", "RB Leipzig", "Schalke 04")),
     aes(color = Club), size = 3
   ) +
+  geom_text(
+    data = filter(df_bl_days, Club %in% c("Bayern Munich", "RB Leipzig", "Schalke 04"), Day > 33),
+    aes(color = Club, label = sprintf("% 1.2f", Score_rel)),
+    size = 4.5, family = "Vision", fontface = "bold",
+    hjust = 0, nudge_x = .25, show.legend = FALSE
+  ) +
   annotate(
     "text", x = 5, y = 2.73, label = "RB Leipzig",
     color = "#000060", size = 8.5, family = "Bangers"
@@ -179,15 +185,15 @@ g <- df_bl_days_shift %>%
   guides(color = guide_legend(override.aes = list(size = 7))) +
   labs(x = "Match Day", y = "", 
        title = "Bayern Munich's Road to the 31<sup>st</sup> Championship — and Schalke's Way Down",
-       subtitle = "<b style='color:#dc052d;'>FC Bayern Munich</b> is the champion of the Bundesliga season 2020/21 with incredible 2.28 points per match, more than 1 point more than<br>the best chasers. <b style='color:#000060;'>RB Leipzig</b> (1.26 points per match) was getting close several times but has lost the trace again in the last matches.<br><b style='color:#364e67;'>FC Schalke 04</b>, on the other hand, played one of their worst seasons ever scoring only 0.47 points per match.",
+       subtitle = "<b style='color:#dc052d;'>FC Bayern Munich</b> is the champion of the Bundesliga season 2020/21 with incredible 2.29 points per match, more than 0.3 points more than<br>the best chasers. <b style='color:#000060;'>RB Leipzig</b> (1.91 points per match) was getting close several times but has lost the trace again in the last matches.<br><b style='color:#364e67;'>FC Schalke 04</b>, on the other hand, played one of their worst seasons ever scoring only 0.47 points per match.",
        caption = "Visualization: Cédric Scherer") +
   theme(plot.subtitle = element_markdown(family = "Vision"),
         plot.title = element_markdown(size = 26))
 
-ggsave(here::here("21_downwards", "21_downwards_Schalke.pdf"), g, 
+ggsave(here::here("21_downwards", "21_downwards.pdf"), g, 
        width = 14, height = 9.5, device = cairo_pdf)
 
-pdf_convert(pdf = here::here("21_downwards", "21_downwards.png"), 
+pdf_convert(pdf = here::here("21_downwards", "21_downwards.pdf"), 
             filenames = here::here("21_downwards", "21_downward.png"),
             format = "png", dpi = 500)
 
@@ -224,6 +230,12 @@ g <- df_bl_days_shift %>%
   geom_point(
     data = filter(df_bl_days_shift, Club %in% c("Bayern Munich", "RB Leipzig")),
     aes(color = Club), size = 3
+  ) +
+  geom_text(
+    data = filter(df_bl_days, Club %in% c("Bayern Munich", "RB Leipzig"), Day > 33),
+    aes(color = Club, label = sprintf("% 1.2f", Score_rel)),
+    size = 4.5, family = "Vision", fontface = "bold",
+    hjust = 0, nudge_x = .25, show.legend = FALSE
   ) +
   annotate(
     "text", x = 5, y = 2.73, label = "RB Leipzig",
@@ -263,7 +275,7 @@ g <- df_bl_days_shift %>%
        caption = "Visualization: Cédric Scherer") +
   theme(plot.subtitle = element_markdown(family = "Vision"))
 
-ggsave(here::here("22_animation", "21_downwards_not_really_umpf.pdf"), g, 
+ggsave(here::here("21_downwards", "21_downwards_not_really_umpf.pdf"), g, 
        width = 14, height = 9, device = cairo_pdf)
 
 
