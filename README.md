@@ -44,19 +44,19 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
   + Day 17: [Pop Culture](https://github.com/Z3tt/30DayChartChallenge/tree/main/17_pop_culture/)
   + Day 18: Connections
 * Timeseries
-  + Day 19: [Global Change](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/19_global_change/)
+  + Day 19: [Global Change](https://github.com/Z3tt/30DayChartChallenge/tree/main/19_global_change/)
   + Day 20: [Upwards](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/20_upwards/)
-  + Day 21: Downwards
-  + Day 22: [Animation](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/22_animation/)
-  + Day 23: [Tiles](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/23_tiles/)
+  + Day 21: [Downwards](https://github.com/Z3tt/30DayChartChallenge/tree/main/21_downwards)
+  + Day 22: [Animation](https://github.com/Z3tt/30DayChartChallenge/tree/main/22_animation/)
+  + Day 23: [Tiles](https://github.com/Z3tt/30DayChartChallenge/tree/main/23_tiles/)
   + Day 24: Monochrome
 * Uncertainties:
   + Day 25: Demographic
   + Day 26: Trends
-  + [Day 27: Educational](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/27_educational/)
+  + [Day 27: Educational](https://github.com/Z3tt/30DayChartChallenge/tree/main/27_educational/)
   + Day 28: Future
   + Day 29: Deviations
-  + [Day 30: 3D](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/30_3D/)
+  + [Day 30: 3D](https://github.com/Z3tt/30DayChartChallenge/tree/main/30_3D/)
 <!-- tocstop -->
 
 </details>
@@ -121,6 +121,9 @@ My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukano
 
 ### Day 20: [Upwards](https://github.com/Z3tt/30DayChartChallenge/tree/main/20_upwards)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/20_upwards/20_upwards.png)<br>***Tool:*** *ggplot2*<br><br>
+
+### Day 21: [Downwards](https://github.com/Z3tt/30DayChartChallenge/tree/main/21_downwards)
+![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/21_downwards/21_downwards.png)<br>***Tool:*** *ggplot2*<br><br>
 
 ### Day 22: [Animation](https://github.com/Z3tt/30DayChartChallenge/tree/main/22_animation)
 ![](https://raw.githubusercontent.com/Z3tt/30DayChartChallenge/main/22_animation/22_animation.png)<br>***Tool:*** *Flourish* ([Interactive version](https://public.flourish.studio/visualisation/5939637))<br><br>
