@@ -14,13 +14,13 @@ theme_set(theme_minimal(base_family = "Vision"))
 
 theme_update(
   plot.background = element_rect(fill = "grey94", color = "grey94"),
-  plot.title.position = "plot",
+  plot.title.position = "plot", plot.caption.position = "plot",
   plot.title = element_markdown(family = "Vision Heavy", size = 30, 
                                 hjust = 0, margin = margin(b = 17)),
   plot.subtitle = element_markdown(family = "Vision Heavy", size = 15, 
                                    color = "grey40", lineheight = 1.3,
                                    hjust = 0, margin = margin(t = 0, b = 60)),
-  plot.caption = element_text(size = 12, color = "grey60", hjust = 1,
+  plot.caption = element_text(size = 12, color = "grey60", hjust = 0,
                               margin = margin(t = 5)),
   axis.title.x = element_text(size = 19, color = "grey40", family = "Vision Heavy",
                               margin = margin(t = 12, b = 5)),
@@ -34,7 +34,7 @@ theme_update(
   panel.grid.major.y = element_line(size = 0.6, color = "grey80",
                                     linetype = "dotted"),
   legend.position = "none",
-  plot.margin = margin(25, 65, 25, 45))
+  plot.margin = margin(25, 75, 25, 45))
 
 ## http://football-data.co.uk/germanym.php
 df_bl <- readr::read_csv(here::here("21_downwards", "D1.csv"))
@@ -82,8 +82,6 @@ df_bl_days <-
   mutate(Club = fct_reorder(Club, max_score)) %>% 
   arrange(Day, Club, Score_rel)
 
-
-##### TOP CLUBS #############################################################
 df_bl_days_shift <-
   df_bl_days %>% 
   mutate(
@@ -190,7 +188,7 @@ g <- df_bl_days_shift %>%
         plot.title = element_markdown(size = 26))
 
 ggsave(here::here("21_downwards", "21_downwards.pdf"), g, 
-       width = 14, height = 9.5, device = cairo_pdf)
+       width = 14.3, height = 9.5, device = cairo_pdf)
 
 pdf_convert(pdf = here::here("21_downwards", "21_downwards.pdf"), 
             filenames = here::here("21_downwards", "21_downward.png"),
@@ -274,9 +272,7 @@ g <- df_bl_days_shift %>%
   theme(plot.subtitle = element_markdown(family = "Vision"))
 
 ggsave(here::here("21_downwards", "21_downwards_not_really_umpf.pdf"), g, 
-       width = 14, height = 9, device = cairo_pdf)
-
-
+       width = 14.3, height = 9, device = cairo_pdf)
 
 pdf_convert(pdf = here::here("21_downwards", "21_downwards_not_really_umpf.pdf"), 
             filenames = here::here("21_downwards", "21_downwards_not_really_umpf.png"),
