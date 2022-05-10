@@ -14,7 +14,7 @@
 <a href="https://www.buymeacoffee.com/z3tt"><img border="0" alt="BuyMeACoffee" src="https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-3.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp;
 
 My contributions to the first [#30DayChartChallenge](https://twitter.com/tjukanov/status/1187713840550744066) initiated by Dominic Roye and myself.  
-Have a look at all contributions from the first edition [here](https://github.com/z3tt/30DayChartChallenge_Collection2021) or at all editions on our [dedicated webpage](http://30daychartchallenge.org/).
+Have a look at community contributions to the first edition [here](https://github.com/z3tt/30DayChartChallenge_Collection2021) or to all editions so far on our [dedicated webpage](http://30daychartchallenge.org/).
 
 </div>
 
