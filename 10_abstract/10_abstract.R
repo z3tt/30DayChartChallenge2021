@@ -1,3 +1,4 @@
+library(ggplot2)
 library(rnaturalearth)
 library(sf)
 library(terra)
@@ -33,22 +34,25 @@ g <- ggplot() +
   )
 
 g +
-  scale_fill_gradientn(colors = viridis::rocket(100), guide = "none") +
-  ggsave(here::here("10_abstract", "10_abstract_rocket.pdf"), 
-         width = 18, height = 12, device = cairo_pdf)
+  scale_fill_gradientn(colors = viridis::rocket(100), guide = "none")
+
+ggsave(here::here("10_abstract", "10_abstract_rocket.pdf"), 
+       width = 18, height = 12, device = cairo_pdf)
 
 g +
   scale_fill_gradientn(colors = viridis::mako(100), guide = "none") +
   labs(caption = "Cédric Scherer |  #3ODayChartChallenge 2O21  |  Day 1O: Abstract") +
-  theme(plot.caption = element_text(family = "Graduate")) +
-  ggsave(here::here("10_abstract", "10_abstract_mako.pdf"), 
-         width = 18, height = 12, device = cairo_pdf)
+  theme(plot.caption = element_text(family = "Graduate"))
+
+ggsave(here::here("10_abstract", "10_abstract_mako.pdf"), 
+       width = 18, height = 12, device = cairo_pdf)
 
 g +
   scale_fill_gradientn(colors = viridis::turbo(100), guide = "none") +
-  theme(plot.caption = element_text(family = "Luckiest Guy")) +
-  ggsave(here::here("10_abstract", "10_abstract_turbo.pdf"), 
-         width = 18, height = 12, device = cairo_pdf)
+  theme(plot.caption = element_text(family = "Luckiest Guy"))
+  
+ggsave(here::here("10_abstract", "10_abstract_turbo.pdf"), 
+       width = 18, height = 12, device = cairo_pdf)
 
 pdfs <- list.files(here::here("10_abstract"), pattern = "*.pdf", recursive = TRUE)
 for(pdf in pdfs) {
