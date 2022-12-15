@@ -47,3 +47,4 @@ rsconnect/
 
 # Ignore Tree Census Data
 /16_trees/*.csv
+09_statistics/CRANlogs/CRANlogs.Rds
